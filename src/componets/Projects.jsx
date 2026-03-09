@@ -1,58 +1,55 @@
 const Projects = () => {
 
     const projects = [
-      {
-        id: 1,
-        title: "Nail Bar Booking App",
-        description: "A booking system for a nail salon where customers can schedule appointments.",
-        tech: "React • CSS • JSON Server",
-        github: "https://github.com/Khethani17/Nail-Bar",
-        demo: "phindi-nail-bar.netlify.app"
-      },
-      {
-        id: 2,
-        title: "Khethani's Portfolio",
-        description: "My personal portfolio website built with React to display my projects, skills, and development journey.",
-        tech: "React • CSS • JSON Server",
-        github: "#",
-        demo: "#"
-      },
-      {
-        id: 3,
-        title: "Twitter clone",
-        description: "A social media clone inspired by Twitter where users can post tweets, view timelines, and interact with posts.",
-        tech: "HTML • CSS",
-        github: "https://github.com/Khethani17/Twitter-solo",
-        demo: "twitter-solo-zaio.netlify.app"
-      },
-      {
-        id: 4,
-        title: "Youtube clone",
-        description: "A YouTube-inspired web application that allows users to browse and watch videos using a modern responsive interface.",
-        tech: "HTML • CSS",
-        github: "hhttps://github.com/Khethani17/youtube-zaio",
-        demo: "youtube-zaio26.netlify.app"
-      },
-      {
-        id: 5,
-        title: "Netflix clone",
-        description: "A Netflix-inspired streaming interface that displays movie categories and trailers using API data.",
-        tech: "HTML • CSS",
-        github: "https://github.com/Khethani17/ZAIO-NETFLIX",
-        demo: "zaio-khethani-flx.netlify.app"
-      }
-      ,
-      {
-        id: 6,
-        title: "Tesla clone",
-        description: "A responsive Tesla landing page clone showcasing modern UI design and smooth scrolling sections.",
-        tech: "HTML • CSS",
-        github: "https://github.com/Khethani17/Zaio-Tesla",
-        demo: "tesla-zaio26.netlify.app"
-      }
-    
-    
-    ]
+        {
+          id: 1,
+          title: "Nail Bar Booking App",
+          description: "A booking system for a nail salon where customers can schedule appointments.",
+          tech: "React • CSS • JSON Server",
+          github: "https://github.com/Khethani17/Nail-Bar",
+          demo: "https://phindi-nail-bar.netlify.app/"
+        },
+        {
+          id: 2,
+          title: "Khethani's Portfolio",
+          description: "My personal portfolio website built with React to display my projects, skills, and development journey.",
+          tech: "React • CSS • JSON Server",
+          github: "https://github.com/Khethani17/Khethani-s-Portfolio",
+          demo: "https://khethani-portofilo.netlify.app/"
+        },
+        {
+          id: 3,
+          title: "Twitter clone",
+          description: "A social media clone inspired by Twitter where users can post tweets, view timelines, and interact with posts.",
+          tech: "HTML • CSS",
+          github: "https://github.com/Khethani17/Twitter-solo",
+          demo: "https://twitter-solo-zaio.netlify.app"
+        },
+        {
+          id: 4,
+          title: "Youtube clone",
+          description: "A YouTube-inspired web application that allows users to browse and watch videos using a modern responsive interface.",
+          tech: "HTML • CSS",
+          github: "https://github.com/Khethani17/youtube-zaio",
+          demo: "https://youtube-zaio26.netlify.app"
+        },
+        {
+          id: 5,
+          title: "Netflix clone",
+          description: "A Netflix-inspired streaming interface that displays movie categories and trailers using API data.",
+          tech: "HTML • CSS",
+          github: "https://github.com/Khethani17/ZAIO-NETFLIX",
+          demo: "https://zaio-khethani-flx.netlify.app"
+        },
+        {
+          id: 6,
+          title: "Tesla clone",
+          description: "A responsive Tesla landing page clone showcasing modern UI design and smooth scrolling sections.",
+          tech: "HTML • CSS",
+          github: "https://github.com/Khethani17/Zaio-Tesla",
+          demo: "https://tesla-zaio26.netlify.app"
+        }
+      ]
   
     return (
       <section id="projects" className="projects">
